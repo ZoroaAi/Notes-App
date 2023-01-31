@@ -1,17 +1,20 @@
-/* Error: There is no module with the namespace "variables".
- *   ,
- * 9 |     background-color: variables.$dark;
- *   |                       ^^^^^^^^^^^^^^^
- *   '
- *   website\static\main.scss 9:23  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: There is no module with the namespace "variables".\a   \2577 \a 9 \2502      background-color: variables.$dark;\d\a   \2502                        ^^^^^^^^^^^^^^^\a   \2575 \a   website\\static\\main.scss 9:23  root stylesheet';
+* {
+  box-sizing: border-box;
 }
+
+a {
+  text-decoration: none;
+}
+
+.butt {
+  font-weight: 600;
+  background-color: #f6b93b;
+  border-radius: 5px;
+  box-shadow: -4px 4px #000000;
+  padding: 20px 45px;
+  color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
